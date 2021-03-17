@@ -1,0 +1,157 @@
+body { 
+    color: #252A3C;
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: Tahoma;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    font-size: small;
+    line-height: 180%;
+}
+
+a {
+    text-decoration: none;
+    color: #252A3C;
+}
+
+a:hover {
+    color: none;
+}
+
+a:active {
+    color: none;
+}
+
+.logo {
+    color: #252A3C;
+}
+
+.logo {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.slogan {
+    text-align: left;
+    padding-bottom: 8px;
+    padding-left: 40px;
+}
+
+.aboutIMG {
+    border-radius: 250px;
+    float: right;
+    margin: auto 60px 40px 60px;
+}
+
+.meText {  
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 48px;
+}
+
+
+.nameAbout {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 40px;
+    font-style: none;
+    text-decoration: underline;
+}
+
+.products {
+    margin-top: 32px;
+    margin-left: 40px;
+    font-style: none;
+    text-decoration: underline;
+}
+
+.productsList {
+    margin-bottom: 509px;
+    list-style: inside square;
+}
+
+.footer {
+    padding-left: 40px;
+}
+
+.my-form{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+    font-family: Tahoma;
+}
+
+.button {
+    background-color: #252A3C;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #9CBCD9;
+}
+
+.button:active {
+    color: whitesmoke;
+}
+
+.nav2 {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #252A3C;
+}
+
+li.nav2 {
+    float: left;
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color: #9CBCD9;
+}
+
+
+@media (min-width: 1024px) {
+   body {
+       background-color: white;
+       color: black;
+       font-size: small;
+       line-height: 180%;
+       %;
+   } 
+}
+
+@media (max-width: 1024px) {
+    .aboutIMG {
+        width: 40%;
+        margin: auto auto 32px 48px;
+    }
+}
